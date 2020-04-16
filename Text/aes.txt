@@ -1,0 +1,5 @@
+AES is a symmetric key encryption cipher. This means that the same key used to encrypt the data is used to decrypt it. This does create a problem: how do you send the key in a secure way?
+
+Asymmetric encryption systems solve this problem by securing data using a public key which is made available to everyone. It can only be decrypted by an intended recipient who holds the correct private key.
+
+This makes asymmetric encryption much better at securing data in transit as the sender does not need to know the recipient’s private key. A good example is RSA encryption, which is used to secure the TLS key exchanges required when connecting to a secure HTTPS website.
